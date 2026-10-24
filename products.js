@@ -370,26 +370,31 @@ function def(brand, category, o) { return Object.assign({ id: brand + '-' + cate
 
 const DETAILS = [
   /* ===== ESSENTIALS ===== */
-  def('essentials', 'hoodie', { name: 'Essentials Fleece Hoodie', price: 190, isNew: true, colors: ['Black', 'Gray', 'Cream'],
-    description: 'A heavyweight everyday hoodie with a clean, logo-light face and a relaxed drop shoulder.',
-    features: ['Brushed fleece interior', 'Kangaroo pocket', 'Ribbed cuffs and hem', 'Drawstring hood'],
-    materials: '80% cotton, 20% polyester fleece', fit: 'Relaxed, slightly oversized fit. True to size; size down for a closer fit.', care: CARE.fleece }),
-  def('essentials', 'tshirt', { name: 'Essentials Boxy Tee', price: 85, colors: ['Black', 'White', 'Sand'],
-    description: 'A boxy-cut tee in dense cotton jersey that holds its shape wash after wash.',
-    features: ['Boxy silhouette', 'Ribbed crew neck', 'Pre-washed for softness'],
-    materials: '100% cotton jersey', fit: 'Boxy fit with a dropped shoulder. True to size.', care: CARE.cotton }),
-  def('essentials', 'shorts', { name: 'Essentials Sweat Shorts', price: 110, colors: ['Charcoal', 'Cream', 'Olive'],
-    description: 'Easy fleece sweat shorts with an elastic waist and a knee-length cut.',
-    features: ['Elastic drawstring waist', 'Side pockets', 'Brushed fleece interior'],
-    materials: '80% cotton, 20% polyester', fit: 'Relaxed fit, hits at the knee. True to size.', care: CARE.fleece }),
-  def('essentials', 'jacket', { name: 'Essentials Coach Jacket', price: 230, isNew: true, colors: ['Black', 'Navy', 'Olive'],
-    description: 'A lightweight coach jacket with a snap front and a clean, minimal finish.',
-    features: ['Snap-button front', 'Two welt pockets', 'Lined interior', 'Elastic cuffs'],
-    materials: 'Shell: 100% nylon. Lining: 100% polyester', fit: 'Regular fit with room for layering. True to size.', care: CARE.nylon }),
-  def('essentials', 'tracksuit', { name: 'Essentials Fleece Tracksuit', price: 320, colors: ['Gray', 'Black', 'Cream'],
-    description: 'A matching fleece jacket and joggers, built for easy all-day wear.',
-    features: ['Full-zip jacket with ribbed cuffs', 'Tapered joggers with drawstring', 'Matching two-piece set'],
-    materials: '80% cotton, 20% polyester fleece', fit: 'Relaxed fit. Sold as a set; size up for a looser look.', care: CARE.fleece }),
+
+def('essentials', 'hoodie', { name: 'Essentials Fleece Hoodie', price: 79, isNew: true, colors: ['Black', 'Gray', 'Cream'],
+  description: 'A heavyweight everyday hoodie with a clean, logo-light face and a relaxed drop shoulder.',
+  features: ['Brushed fleece interior', 'Kangaroo pocket', 'Ribbed cuffs and hem', 'Drawstring hood'],
+  materials: '80% cotton, 20% polyester fleece', fit: 'Relaxed, slightly oversized fit. True to size; size down for a closer fit.', care: CARE.fleece }),
+
+def('essentials', 'tshirt', { name: 'Essentials Boxy Tee', price: 59, colors: ['Black', 'White', 'Sand'],
+  description: 'A boxy-cut tee in dense cotton jersey that holds its shape wash after wash.',
+  features: ['Boxy silhouette', 'Ribbed crew neck', 'Pre-washed for softness'],
+  materials: '100% cotton jersey', fit: 'Boxy fit with a dropped shoulder. True to size.', care: CARE.cotton }),
+
+def('essentials', 'shorts', { name: 'Essentials Sweat Shorts', price: 64, colors: ['Charcoal', 'Cream', 'Olive'],
+  description: 'Easy fleece sweat shorts with an elastic waist and a knee-length cut.',
+  features: ['Elastic drawstring waist', 'Side pockets', 'Brushed fleece interior'],
+  materials: '80% cotton, 20% polyester', fit: 'Relaxed fit, hits at the knee. True to size.', care: CARE.fleece }),
+
+def('essentials', 'jacket', { name: 'Essentials Coach Jacket', price: 109, isNew: true, colors: ['Black', 'Navy', 'Olive'],
+  description: 'A lightweight coach jacket with a snap front and a clean, minimal finish.',
+  features: ['Snap-button front', 'Two welt pockets', 'Lined interior', 'Elastic cuffs'],
+  materials: 'Shell: 100% nylon. Lining: 100% polyester', fit: 'Regular fit with room for layering. True to size.', care: CARE.nylon }),
+
+def('essentials', 'tracksuit', { name: 'Essentials Fleece Tracksuit', price: 139, colors: ['Gray', 'Black', 'Cream'],
+  description: 'A matching fleece jacket and joggers, built for easy all-day wear.',
+  features: ['Full-zip jacket with ribbed cuffs', 'Tapered joggers with drawstring', 'Matching two-piece set'],
+  materials: '80% cotton, 20% polyester fleece', fit: 'Relaxed fit. Sold as a set; size up for a looser look.', care: CARE.fleece }),
 
   /* ===== BAPE ===== */
   def('bape', 'hoodie', { name: 'Bape Full-Zip Hoodie', price: 420, isNew: true, colors: ['Black', 'Forest Green', 'Navy'],
