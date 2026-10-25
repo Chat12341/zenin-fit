@@ -25,7 +25,7 @@ const STORE_CONFIG = {
   lowStockThreshold: 5,          // 1 to this number of units = "Low Stock"
   freeShippingThreshold: 500,    // free shipping at or above this subtotal
   shippingFlat: 15,              // shipping fee below the threshold
-  contactEmail: 'hello@zenin.fit',
+  contactEmail:  'zenin0313@gmail.com',
   sizes: ['S', 'M', 'L'],
   promoCodes: {},                // e.g. { 'WELCOME10': 10 } = 10% off. Empty = none.
   featuredIds: [                 // products shown on the homepage
