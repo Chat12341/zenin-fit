@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | ZENIN.FIT</title>
+<meta name="description" content="Contact ZENIN.FIT for help with orders, sizing, shipping and product availability.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="contact">
+
+<div id="site-header"></div>
+
+<main id="main">
+  <section class="page-head">
+    <div class="wrap">
+      <nav class="crumbs">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        Contact
+      </nav>
+
+      <span class="eyebrow">Get In Touch</span>
+      <h1>Need Help?</h1>
+
+      <p class="lead">
+        Questions about your order, sizing, shipping, tracking, or product availability?
+        Our team is here to help.
+      </p>
+    </div>
+  </section>
+
+  <section style="padding:70px 0 110px">
+    <div class="wrap contact-grid">
+
+      <form id="contactForm" novalidate>
+
+        <div class="field-2">
+          <div class="field">
+            <label for="cName">Name</label>
+            <input id="cName" type="text" autocomplete="name">
+            <div class="err" id="cNameErr"></div>
+          </div>
+
+          <div class="field">
+            <label for="cEmail">Email</label>
+            <input id="cEmail" type="email" autocomplete="email">
+            <div class="err" id="cEmailErr"></div>
+          </div>
+        </div>
+
+        <div class="field-2">
+          <div class="field">
+            <label for="cOrder">Order Number (Optional)</label>
+            <input id="cOrder" type="text">
+          </div>
+
+          <div class="field">
+            <label for="cTopic">Topic</label>
+
+            <select id="cTopic">
+              <option value="">Choose a Topic</option>
+              <option>Order Status</option>
+              <option>Sizing Help</option>
+              <option>Shipping Question</option>
+              <option>Stock & Availability</option>
+              <option>Returns & Exchanges</option>
+              <option>Other</option>
+            </select>
+
+            <div class="err" id="cTopicErr"></div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="cMsg">Message</label>
+          <textarea id="cMsg"></textarea>
+          <div class="err" id="cMsgErr"></div>
+        </div>
+
+        <button type="submit" class="btn solid">
+          Send Message
+        </button>
+
+        <p class="form-msg" id="contactMsg" role="status"></p>
+
+      </form>
+
+      <aside class="info-card">
+
+        <div>
+          <h4>Email</h4>
+
+          <a id="contactEmail" href="mailto:zenin0313@gmail.com">
+            zenin0313@gmail.com
+          </a>
+        </div>
+
+        <div>
+          <h4>Response Time</h4>
+
+          <p>
+            We typically respond within 24 hours.
+          </p>
+        </div>
+
+        <div>
+          <h4>Quick Answers</h4>
+
+          <p>
+            Need help with shipping, sizing, tracking or product availability?
+            <a href="faq.html" class="link">Visit the FAQ</a>
+          </p>
+        </div>
+
+       <div>
+  <h4>Follow</h4>
+
+  <p>
+    <a href="https://www.instagram.com/zeninofficialxil" target="_blank">
+      Instagram
+    </a>
+
+    &nbsp;·&nbsp;
+
+    <a href="https://www.tiktok.com/@shop.zenin" target="_blank">
+      TikTok
+    </a>
+  </p>
+        </div>
+
+      </aside>
+
+    </div>
+  </section>
+
+</main>
+
+<div id="site-footer"></div>
+
+<script src="products.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
